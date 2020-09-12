@@ -3,4 +3,4 @@
 ### NLTK:
 - pip install nltk
 - python -m nltk.downloader stopwords
-- 
+- pip install autocorrect
