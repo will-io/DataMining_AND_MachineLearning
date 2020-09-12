@@ -1,4 +1,4 @@
-# Willy Esquivel-Lopez - Homework 1 - README.md
+# Willy Esquivel-Lopez - Homework 1 
 ## Download requirements
 ### NLTK:
 - pip install nltk
