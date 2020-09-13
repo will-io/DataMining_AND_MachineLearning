@@ -1,6 +1,6 @@
 # Willy Esquivel-Lopez - Homework 1 
 ## Download requirements
-### NLTK:
+### NLTK, Jupyter Notebooks, autocorrect, SciKit Learn:
 - pip install -U scikit-learn
 - pip install nltk
 - python -m nltk.downloader stopwords
