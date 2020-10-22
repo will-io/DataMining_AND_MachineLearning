@@ -6,7 +6,7 @@
 - pip install seaborn
 - pip install pandas
 - pip install matplotlib
-- pip install graphviz
+- pip install graphviz (this may only work if you download directly to you machine via choco (windows) or sudo(Linux)) otherwise you may comment out the cells that use graphviz
 
 ## option 1 to run (recommended)
 - Simply run the kernel on a python notebook like jupyter 
