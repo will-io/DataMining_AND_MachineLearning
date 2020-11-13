@@ -26,7 +26,7 @@ modeldir = "models/"
 def countlines(filename):
     """returns number of number of words in the file (rows) and number
     of features per word (cols)"""
-    with open(filename,'r') as f:
+    with open(filename,'r',encoding='utf-8') as f:
         lines = f.readlines()
         rows = len(lines)
         cols = len(lines[0].split())-1
@@ -39,7 +39,7 @@ def readGlove(filename):
     rows, cols = countlines(filename)
     data = np.zeros((rows,cols))
     words = []
-    with open(filename,'r') as f:
+    with open(filename,'r',encoding='utf-8') as f:
         i = 0
         for line in f:
            info = line.split()
@@ -74,8 +74,8 @@ def load_glove_vectors(infile):
     fp = open(infile, 'rb')
     words = list(np.load(fp))
 
-    l = [el.decode('UTF-8') for el in words]
-    words = l
+    # l = [el.decode('UTF-8') for el in words]
+    # words = l
     
     vectors = np.load(fp)
     lengths = np.load(fp)

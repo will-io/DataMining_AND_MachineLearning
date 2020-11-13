@@ -1,0 +1,9 @@
+asian
+chinese
+korean
+vietnamese
+china
+cantonese
+japanese
+philipines
+thailand
